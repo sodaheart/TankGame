@@ -1,6 +1,4 @@
-package tankgame.frame;
-
-import tankgame.panel.MyPanel;
+package tankgame;
 
 import javax.swing.*;
 import java.awt.*;
@@ -22,8 +20,11 @@ public class TankGame01 extends JFrame {
     //构造器
     public TankGame01() throws HeadlessException {
         MyPanel mp = new MyPanel();
+        Thread thread = new Thread(mp);
+        thread.start();
+        this.setTitle("鹰酱鹰酱你几段了");
         this.add(mp);
-        this.setSize(1000,750);
+        this.setSize(1200,950);
         this.addKeyListener(mp);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);

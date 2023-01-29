@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7465226a-19b8-4d55-addf-7c4d991d0d60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/draw/DrawCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/event/BallMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tankgame/Shot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tankgame/frame/TankGame01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tankgame/panel/MyPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tankgame/tank/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tankgame/tank/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tankgame/tank/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tankGame.iml" afterDir="false" />
+    <list default="true" id="7465226a-19b8-4d55-addf-7c4d991d0d60" name="Changes" comment="TankGame">
+      <change afterPath="$PROJECT_DIR$/src/tankgame/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tankgame/Shot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tankgame/Shot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tankgame/frame/TankGame01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tankgame/TankGame01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tankgame/panel/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tankgame/MyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tankgame/tank/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tankgame/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tankgame/tank/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tankgame/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tankgame/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tankgame/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3035c261-1a1c-4a15-b3bf-a33666550539" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,17 +50,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/java project/tankGame",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "E:/java project/tankGame/src",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java project\tankGame\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java project\tankGame\imgs" />
+      <recent name="E:\java project\tankGame\out" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.TankGame01">
     <configuration name="TankGame01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tankgame.frame.TankGame01" />
+      <option name="MAIN_CLASS_NAME" value="tankgame.TankGame01" />
       <module name="tankGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tankgame.frame.*" />
+          <option name="PATTERN" value="tankgame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,10 +124,30 @@
       <option name="presentableId" value="Default" />
       <updated>1674206110458</updated>
     </task>
+    <task id="LOCAL-00001" summary="TankGame">
+      <created>1674826761381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674826761381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="TankGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="TankGame" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -13,8 +13,8 @@ public class Shot implements Runnable {
     int x;
     int y;
     int direction = 0;
-    int speed = 2;
-    boolean isLive = true;
+    int speed = 20;
+    public boolean isLive = true;
 
     public Shot(int x, int y, int direction) {
         this.x = x;
@@ -45,7 +45,7 @@ public class Shot implements Runnable {
                     x += speed;
             }
             System.out.println("子弹 x=" + x + " y=" + y);
-            if (!(x >= 0 && x <= 1000 && y >= 0 && y <= 750)) {
+            if (!(x >= 0 && x <= 1000 && y >= 0 && y <= 750 && isLive)) {
                 isLive = false;
                 break;
             }
